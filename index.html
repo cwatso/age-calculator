@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+    <script type="module" crossorigin src="/age-calculator/assets/index-DQvD0ccI.js"></script>
+    <link rel="stylesheet" crossorigin href="/age-calculator/assets/index-4pn2tLHl.css">
+  </head>
+  <body>
+    <div id="app">
+      <form id="input-birthday">
+        <div class="input-fields">
+          <label for="input-day" id="input-day-label"
+            >Day
+            <input
+              id="input-day"
+              name="input-day"
+              type="number"
+              placeholder="DD"
+            />
+            <span id="input-day-error" class="error-message"></span>
+          </label>
+          <label for="input-month" id="input-month-label"
+            >Month
+            <input
+              id="input-month"
+              name="input-month"
+              type="number"
+              placeholder="MM"
+            />
+            <span id="input-month-error" class="error-message"></span>
+          </label>
+          <label for="input-year" id="input-year-label"
+            >Year
+            <input
+              id="input-year"
+              name="input-year"
+              type="number"
+              placeholder="YYYY"
+            />
+            <span id="input-year-error" class="error-message"></span>
+          </label>
+        </div>
+        <button type="submit" formnovalidate="formnovalidate">
+          <img src="./assets/images/icon-arrow.svg" />
+        </button>
+      </form>
+      <p class="output-fields">
+        <span id="output-years">--</span> years<br />
+        <span id="output-months">--</span> months<br />
+        <span id="output-days">--</span> days<br />
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/cwatso">Clare Watson</a>.
+    </div>
+  </body>
+</html>
