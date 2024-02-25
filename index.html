@@ -18,32 +18,35 @@
     <div id="app">
       <form id="input-birthday">
         <div class="input-fields">
-          <label for="input-day"
+          <label for="input-day" id="input-day-label"
             >Day
             <input
               id="input-day"
               name="input-day"
-              type="text"
+              type="number"
               placeholder="DD"
             />
+            <span id="input-day-error" class="error-message"></span>
           </label>
-          <label for="input-month"
+          <label for="input-month" id="input-month-label"
             >Month
             <input
               id="input-month"
               name="input-month"
-              type="text"
+              type="number"
               placeholder="MM"
             />
+            <span id="input-month-error" class="error-message"></span>
           </label>
-          <label for="input-year"
+          <label for="input-year" id="input-year-label"
             >Year
             <input
               id="input-year"
               name="input-year"
-              type="text"
+              type="number"
               placeholder="YYYY"
             />
+            <span id="input-year-error" class="error-message"></span>
           </label>
         </div>
         <button type="submit" formnovalidate="formnovalidate">
@@ -61,7 +64,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Clare Watson</a>.
+      >. Coded by <a href="https://github.com/cwatso">Clare Watson</a>.
     </div>
     <script type="module" src="/main.js"></script>
   </body>
