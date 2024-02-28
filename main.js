@@ -72,6 +72,8 @@ function validateDate(day, month, year, currentDate) {
       setError(inputDay, "Must be a valid date");
       setError(inputMonth, "");
       setError(inputYear, "");
+    } else if (validatedDate > currentDate) {
+      setError(inputYear, "Must be in the past");
     } else {
       clearError(inputDay);
       clearError(inputMonth);
