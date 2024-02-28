@@ -13,11 +13,11 @@
     />
 
     <title>Frontend Mentor | Age calculator app</title>
-    <script type="module" crossorigin src="/age-calculator/assets/index-DLUVZiI7.js"></script>
-    <link rel="stylesheet" crossorigin href="/age-calculator/assets/index-4pn2tLHl.css">
+    <script type="module" crossorigin src="/age-calculator/assets/index-BmQD10vG.js"></script>
+    <link rel="stylesheet" crossorigin href="/age-calculator/assets/index-DinSNWOP.css">
   </head>
   <body>
-    <div id="app">
+    <main id="app">
       <form id="input-birthday">
         <div class="input-fields">
           <label for="input-day" id="input-day-label"
@@ -52,7 +52,12 @@
           </label>
         </div>
         <button type="submit" formnovalidate="formnovalidate">
-          <img src="./assets/images/icon-arrow.svg" />
+          <img
+            focusable="false"
+            aria-label="submit"
+            alt="arrow icon"
+            src="./assets/images/icon-arrow.svg"
+          />
         </button>
       </form>
       <p class="output-fields">
@@ -60,7 +65,7 @@
         <span id="output-months">--</span> months<br />
         <span id="output-days">--</span> days<br />
       </p>
-    </div>
+    </main>
 
     <div class="attribution">
       Challenge by
